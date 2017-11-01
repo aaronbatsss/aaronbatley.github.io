@@ -26,7 +26,6 @@ body {
 
 section, footer {
   font-family: TradeGothic, sans-serif;
-  -webkit-font-smoothing: initial;
 }
 
 .mast {
@@ -354,6 +353,7 @@ button a {
     padding: 5px;
     width: 95%;
     height: 335px;
+    float: unset;
   }
 
   .main p {
@@ -368,11 +368,8 @@ button a {
   }
 
   button {
-    border-radius: 50%;
-    border-width: 25px;
-    margin: 1px;
     font-size: 20px;
-    -webkit-appearance: media-overlay-play-button;
+     -webkit-appearance: listitem;
   }
 
   aside {
