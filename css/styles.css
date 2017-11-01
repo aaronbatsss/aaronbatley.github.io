@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  background: rgb(255, 255, 255);
+}
+
+.container {
+  width: 1075px;
+  margin: auto;
+}
+
+.blue {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 478px;
+  overflow: auto;
+  background: rgb(36, 148, 201)
+}
+
+.orange {
+  overflow: auto;
+  background: rgb(226, 94, 44);
+}
+
+section, footer {
+  font-family: TradeGothic, sans-serif;
+}
+
+.mast {
+  margin: 20px;
+  width: 60%;
+  color: #211012;
+  float: left;
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+  height: 325px;
+  width: 50%;
+  float: left;
+}
+
+aside {
+  margin: 10px;
+  padding: 10px;
+  height: 325px;
+  width: 46%;
+  display: flex;
+  float: left;
+}
+
+.rightbox {
+  border: 1px solid black;
+  margin: 50px;
+  width: 400%;
+  padding: 30px;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 275px;
+  clear: left;
+  max-width: 50%;
+}
+
+footer {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 50%;
+  margin-left: 275px;
+}
+
+footer p {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.spanhead {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1 {
+  height: 90px;
+  margin: 13px;
+  width: 80%;
+  font-family: BetonTExtBol;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  display: inline;
+}
+
+
+.main p {
+  max-width: 100%;
+  margin: 10px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.email {
+  margin-left: 165px;
+  padding: 1px;
+  width: 60%;
+  height: 13vh;
+  display: inline-flex;
+}
+
+button {
+  position: absolute;
+  background-color: black;
+  height: 12%;
+  border-radius: 48%;
+  border-width: 25px;
+  border-color: black;
+}
+
+button a {
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#bandcamp img {
+  height: 50px;
+  width: 66px;
+}
+
+#instagram img {
+  height: 50px;
+  width: 52px;
+}
+
+#twitter img {
+  height: 50px;
+  width: 52px;
+}
+
+.footerlinks {
+  border: 1px solid transparent;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color_changer {
+  width: 32%;
+  margin: 20px;
+  float: right;
+}
+
+#switcher {
+  width: 100%;
+  list-style: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#switcher li {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 3px solid black;
+}
+
+#greenButton {
+  background: rgb(186,255,201);
+  color: black;
+}
+#yellowButton {
+  background: rgb(255,255,186);
+}
+#orangeButton {
+  background: rgb(36, 148, 201);
+}
+
+/*Responsive Design*/
+
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    max-width: 100%
+  }
+
+  .blue {
+    max-width: 100%;
+    height: 74vh;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+
+  .mast {
+    max-width: 100%;
+    margin: 17px 10px 30px 10px;
+  }
+
+  h1 {
+    max-width: 100%;
+    margin: 4px;
+    font-size: 35px;
+    text-transform: lowercase;
+  }
+
+  .spanhead {
+    font-size: 38px;
+  }
+
+  .color_changer {
+    max-width: 100%;
+    margin: 5px 5px 30px 5px;
+    float: right;
+  }
+
+  #switcher {
+    margin: 12px 5px 5px 12px;
+    padding: 1px;
+    width: 90%;
+  }
+
+  section {
+    width: 41%;
+  }
+
+  .main p {
+    max-width: 100%;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .email {
+    margin-left: 10px;
+    padding: 1px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  button {
+    position: fixed;
+    border-radius: 50%;
+    border-width: 25px;
+    margin: 1px;
+  }
+
+
+  aside {
+    width: 53%;
+  }
+
+  .orange {
+    max-width: 100%;
+    margin: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  footer {
+    max-width: 100%;
+    margin-left: 10px;
+  }
+}
+
+/*Responsive Design Pt II*/
+
+@media screen and (max-width: 677px) and (min-width: 600px) {
+
+  aside {
+    display: none;
+  }
+
+  .color_changer, #switcher {
+    float: unset;
+    display: inline;
+  }
+
+  .main {
+    float: unset;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    max-width: 100%;
+  }
+
+  .blue {
+    height: 79vh;
+    margin-bottom: 5px;
+  }
+
+  .mast {
+    width: 92%;
+    margin: 10px;
+    display: inline-grid;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 44px;
+    margin-left: inherit;
+  }
+
+  .color_changer {
+    margin: 5px;
+    padding: 1px;
+    width: 95%;
+  }
+
+  #switcher {
+    width: 95%;
+  }
+
+  #switcher li {
+    margin: 1px 10px 1px 10px;
+  }
+
+  .main {
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+    height: 240px;
+  }
+
+  .main p {
+    margin: 12px;
+    padding: 0;
+    font-size: medium;
+  }
+
+  .email  {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  button {
+    border-radius: 50%;
+    border-width: 25px;
+    margin: 1px;
+    font-size: 20px;
+  }
+
+  aside {
+    display: none;
+  }
+
+  aside img {
+    max-width: 100%;
+    margin: 0px;
+  }
+
+  .orange {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    padding: 1px;
+  }
+
+  .footerlinks {
+    max-width: 95%;
+    margin-left: 9px;
+    padding: 1px;
+  }
+
+  #bandcamp img {
+    height: 40px;
+    width: 56px;
+  }
+
+  #instagram img {
+    height: 40px;
+    width: 42px;
+  }
+
+  #twitter img {
+    height: 40px;
+    width: 42px;
+  }
+
+  footer {
+    display: block;
+    margin: 5px;
+  }
+
+  footer p {
+    display: block;
+    max-width: 100%;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+
+  .spanhead{
+    font-size: 55px;
+  }
+} 
+
+
+
+/*Responsive Desgin Pt III*/
+
+
+
+
+
+
+
+
+
