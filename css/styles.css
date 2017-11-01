@@ -26,6 +26,7 @@ body {
 
 section, footer {
   font-family: TradeGothic, sans-serif;
+  -webkit-font-smoothing: initial;
 }
 
 .mast {
@@ -313,6 +314,7 @@ button a {
 
   .container {
     max-width: 100%;
+
   }
 
   .blue {
@@ -340,6 +342,7 @@ button a {
 
   #switcher {
     width: 95%;
+    margin: 1px 5px 1px 5px;
   }
 
   #switcher li {
@@ -350,7 +353,7 @@ button a {
     margin: 5px;
     padding: 5px;
     width: 95%;
-    height: 240px;
+    height: 335px;
   }
 
   .main p {
@@ -369,6 +372,7 @@ button a {
     border-width: 25px;
     margin: 1px;
     font-size: 20px;
+    -webkit-appearance: media-overlay-play-button;
   }
 
   aside {
