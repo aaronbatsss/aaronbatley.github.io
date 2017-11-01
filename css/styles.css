@@ -126,10 +126,11 @@ h1 {
 button {
   position: absolute;
   background-color: black;
-  height: 12%;
+  height: 14%;
   border-radius: 48%;
   border-width: 25px;
   border-color: black;
+  -webkit-appearance: button-bevel;
 }
 
 button a {
@@ -429,7 +430,7 @@ button a {
 
 
 
-/*Responsive Desgin Pt III*/
+
 
 
 
