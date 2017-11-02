@@ -159,7 +159,7 @@ button a {
   border: 1px solid transparent;
   padding: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .color_changer {
