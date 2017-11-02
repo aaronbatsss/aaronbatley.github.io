@@ -48,6 +48,8 @@ aside {
   padding: 10px;
   height: 325px;
   width: 46%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   float: left;
 }
@@ -120,6 +122,8 @@ h1 {
   padding: 1px;
   width: 60%;
   height: 13vh;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -158,8 +162,11 @@ button a {
 .footerlinks {
   border: 1px solid transparent;
   padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .color_changer {
@@ -174,8 +181,12 @@ button a {
   margin: 1px;
   padding: 1px;
   overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #switcher li {
@@ -258,7 +269,9 @@ button a {
     margin-left: 10px;
     padding: 1px;
     width: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   button {
@@ -324,6 +337,7 @@ button a {
   .mast {
     width: 92%;
     margin: 10px;
+    display: -ms-inline-grid;
     display: inline-grid;
   }
 
